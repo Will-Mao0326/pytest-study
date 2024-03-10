@@ -1,5 +1,6 @@
 import json
 import sys
+import codesc
 
 for line in sys.stdin:
     json_data = json.loads(line)
